@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#buying {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: transparent;
+    border-radius: 15px;
+}
+.card {
+    margin:5px;
+    width: calc(20% - 10px);
+}
+.card-body {
+    padding: 0 20px !important;
+}
+.card img {
+    padding: 20px 0;
+    margin-left:50%;
+    transform: translateX(-50%);
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 200px;
+    height: auto;
+    width: auto;
+}
+
+#cart-wrapper img {
+    height: 70px;
+    width: auto;
+}
+
+.add-cart{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+    .card {
+        width: calc(25% - 10px);
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .card {
+        width: calc(33% - 10px);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .card {
+        width: calc(50% - 10px);
+    }
+}

@@ -35,25 +35,25 @@
     <div class="container">
 
         <div class="row border mt-3 p-3 border bg-light">
-            <div class="col col-3 col-md-5 col-sm-6">
+            <div class="col col-12 col-sm-12 col-md-5 col-lg-3 mb-2 p-0">
                 <label for="search-div">Busqueda</label>
                 <div class="form-inline" id="search-div" style="flex:4">
                     <input id="search" class="form-control form-control-sm  mr-sm-2" type="search" placeholder="Buscar">
                     <button onclick="updateProducts()" class="btn btn-sm btn-outline-info my-2 my-sm-0" type="submit">Buscar</button>
                 </div>
             </div>
-            <div class="col offset-md-1 offset-lg-1 col-2 px-1">
+            <div class="col col-4 col-md-2 col-sm-4 offset-md-1 offset-lg-1 px-1">
                 <label for="select-category">Categoria</label>
                 <select style="flex:2" onchange="updateProducts()" id="select-category" class="form-control form-control-sm  mr-2"></select>
             </div>
-            <div class="col col-2 px-1">
+            <div class="col col-4 col-md-2 col-sm-4 px-1">
                 <label for="select-discount">Descuentos</label>
                 <select style="flex:2" onchange="updateProducts()" class="form-control form-control-sm mr-2 px-1" id="select-discount">
                     <option selected value="false">Todos</option>
                     <option value="true">Con descuento</option>
                 </select>                    
             </div>
-            <div class="col col-2 px-1">
+            <div class="col col-4 col-md-2 col-sm-4 px-1">
                 <label for="select-order-price">Ordenar por</label>
                 <select style="flex:2" onchange="updateProducts()" class="form-control form-control-sm mr-2 px-1" id="select-order-price">
                     <option selected value="desc">Mayor precio</option>

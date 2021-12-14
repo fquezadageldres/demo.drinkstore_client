@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+body {
+    min-width: 340px;
+    overflow-x: scroll;
+}
 #buying {
     position: absolute;
     width: 12px;
@@ -42,7 +46,7 @@
     }
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 991px) {
     .card {
         width: calc(33% - 10px);
     }
@@ -51,5 +55,24 @@
 @media only screen and (max-width: 767px) {
     .card {
         width: calc(50% - 10px);
+    }
+    label {
+        font-size: .8em;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .card {
+        margin-left:calc(50% - 135px);
+        width: 280px;
+    }
+    label {
+        font-size: .8em;
+    }
+    input, #select-take {
+        width: auto !important;
+    }
+    input {
+        margin-right: 7px !important;
     }
 }
